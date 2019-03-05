@@ -1,7 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function addStuff(num1, num2) {
+  var answer = "answer is : ";
 
+  function add() {
+    return answer + (num1 + num2);
+  }
+  return add();
+}
 
+console.log(addStuff(24,1));
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
